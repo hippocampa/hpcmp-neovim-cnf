@@ -9,6 +9,9 @@ vim.keymap.set({'n', 'x'}, 'x', '"_x')
 -- Select all lines
 vim.keymap.set('n', '<leader>a', ':keepjumps normal! ggVG<cr>')
 
+-- RTP
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex) -- Explorer
+
 -- Tabbing
 --
 vim.keymap.set('n', '<leader>tn', '<cmd>tabnew<CR>')

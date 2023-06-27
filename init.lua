@@ -1,5 +1,4 @@
--- Load Options
-require('hpcmp.options') 
+require("hpcmp")
 
--- Load Keymaps
-require('hpcmp.keymaps')
+
+
